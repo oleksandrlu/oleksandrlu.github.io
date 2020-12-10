@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Web solution</title>
+</head>
+
+<body>
+
+    <ul class="m-menu">
+        <li class="close-menu">&times;</li>
+        <li><a href="#services" class="menu-link">Услуги</a></li>
+        <li><a href="#contact" class="menu-link">Обратная связь</a></li>
+        <li><a href="#" class="menu-link get-started-header">Главная</a></li>
+    </ul>
+
+
+    <canvas id="canvas1"></canvas>
+    <header class="header" id="header">
+        <div class="wrapper">
+            <div class="header_logo">
+                <span>WebHelper</span>
+            </div>
+            <a href="#" class="m-menu-link">
+                <i class="fa fa-bars"></i>
+            </a>
+            <nav class="header_nav visible-lg">
+                <ul>
+                    <li><a href="#header">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Обратная связь</a></li>
+                </ul>
+            </nav>
+
+            <div class="header_main">
+                <h1>Эффективные решения</h1>
+                <p>разработка и поддержка проектов</p>
+                <button id="header_btn">Отправить заяку</button>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="services" id="services">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <h2 class="services__title">Услуги</h2>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-xl-3 col-md-6">
+                    <img src="css/landing.png" alt="design">
+                    <h3 class="services_h3">сайт-визитка</h3>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <img src="css/store.png" alt="development">
+                    <h3 class="services_h3">интернет-магазин</h3>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <img src="css/blog.png" alt="support">
+                    <h3 class="services_h3">блог</h3>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <img src="css/promo.png" alt="support">
+                    <h3 class="services_h3">промо-сайт</h3>
+                </div>
+            </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-xl-8">
+                    <h2 class="services__title">Обратная связь</h2>
+                </div>
+            </div>
+
+            <div class="row form justify-content-center">
+                <div class="col-xl-5">
+                    <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="col-xl-5">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="col-xl-10">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+                </div>
+                <div class="col-xl-2 offset-xl-7">
+                    <button>Отправить</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer_rights">
+        <div class="footer_content">
+            <p class="verify">2020 © All rights reserved</p>
+
+        </div>
+    </footer>
+</body>
+<script
+          src="http://code.jquery.com/jquery-1.12.4.min.js"
+          integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+          crossorigin="anonymous">
+        </script>
+<script src="script_animation.js"></script>
+<script src="script_main.js"></script>
+
+</html>
